@@ -1,3 +1,6 @@
+// reverse string
+
+
 public class ReverseString {
     public static void main(String[] args) {
         String str = "harish";
@@ -7,4 +10,5 @@ public class ReverseString {
     static String reverseString(String str) {
         return new StringBuilder(str).reverse().toString();
     }
+    
 }
