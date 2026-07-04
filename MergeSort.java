@@ -13,7 +13,7 @@ public class MergeSort {
             int mid = left + (right - left) / 2;
             mergeSort(arr, left, mid);
             mergeSort(arr, mid + 1, right);
-            merge(arr, left, mid, right)
+            merge(arr, left, mid, right);
         }
     }
 
@@ -29,4 +29,4 @@ public class MergeSort {
         while (i < leftArr.length) arr[k++] = leftArr[i++];
         while (j < rightArr.length) arr[k++] = rightArr[j++];
     }
-
+}
